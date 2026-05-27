@@ -42,7 +42,7 @@ Execute os scripts main.ipynb na sequência para exibição dos gráficos.
 📊 Estrutura das Visualizações
 1. Estatística Descritiva (Top 10 Categorias)
 Tipo: Gráfico de Barras Horizontais (Matplotlib)
-`![Gráfico de Barras](Grafico de barras.png)`
+![Gráfico de Barras](assets/Grafico_de_barras.png)
 
 Insight: Domínio das categorias de Beleza & Saúde (health_beauty) e Relógios (watches_gifts).
 
