@@ -31,7 +31,9 @@ cd olist-data-visualization
 
 ### 2. Instalar as Dependências
 
+```bash
 pip install pandas numpy matplotlib plotly networkx
+```
 
 ### 3. Baixar os Dados Brutos
 
@@ -41,42 +43,42 @@ Faça o download e extraia todos os arquivos .csv dentro da pasta raiz deste pro
 
 ### 4. Executar o Script de Unificação (Merge)
 
-Execute o script Python merge.py para consolidar todas as tabelas no arquivo final esperado pelos scripts de visualização.
+Execute o script Python `merge.py` para consolidar todas as tabelas no arquivo final esperado pelos scripts de visualização.
 
 ### 5. Executar
 
-Execute os `notebooks` main.ipynb na sequência para exibição dos gráficos.
+Execute o notebook `main.ipynb` na sequência para exibição dos gráficos.
 
-### (Obs: o plugin Jupyter deve estar instalado no VS code para execução do script)
+### (Obs: o plugin Jupyter deve estar instalado no VS code para execução dos notebooks)
 
 ---
 
 📊 Estrutura das Visualizações
-1. Estatística Descritiva (Top 10 Categorias)
+### 1. Estatística Descritiva (Top 10 Categorias)
 Tipo: Gráfico de Barras Horizontais (Matplotlib)
 ![Gráfico de Barras](assets/Grafico_de_barras.png)
 
 Insight: Domínio das categorias de Beleza & Saúde (health_beauty) e Relógios (watches_gifts).
 
-2. Informação Temporal (Evolução Mensal)
+### 2. Informação Temporal (Evolução Mensal)
 Tipo: Gráfico de Linha Contínua (Matplotlib)
 ![Gráfico de linha](assets/Grafico_linha.png)
 
 Insight: Exibe o comportamento histórico de faturamento entre jan/2017 e ago/2018, evidenciando o pico sazonal da Black Friday em novembro de 2017.
 
-3. Informação Geográfica (Densidade de Vendas)
+### 3. Informação Geográfica (Densidade de Vendas)
 Tipo: Mapa Choropleth (Plotly Express + GeoJSON)
 ![Gráfico de Mapa](assets/Mapa.png)
 
 Técnica: Aplicação de Escala Logarítmica para balancear o contraste visual da dominância econômica da região Sudeste.
 
-4. Informação Hierárquica (Distribuição Regional)
+### 4. Informação Hierárquica (Distribuição Regional)
 Tipo: Treemap (Plotly Express)
 ![Treemap](assets/Treemap.png)
 
 Insight: Organiza proporcionalmente o faturamento dividindo por Estado do Cliente e suas respectivas categorias mais consumidas (Top 5 estados).
 
-5. Visualização de Redes (Fluxo Comercial)
+### 5. Visualização de Redes (Fluxo Comercial)
 Tipo: Grafo Direcionado Node-Link (NetworkX + spring_layout)
 ![Grafo Direcionado](assets/Grafo_Dirigido.png)
 
