@@ -48,20 +48,24 @@ Insight: Domínio das categorias de Beleza & Saúde (health_beauty) e Relógios 
 
 2. Informação Temporal (Evolução Mensal)
 Tipo: Gráfico de Linha Contínua (Matplotlib)
+![Gráfico de linha](assets/Grafico_linha.png)
 
 Insight: Exibe o comportamento histórico de faturamento entre jan/2017 e ago/2018, evidenciando o pico sazonal da Black Friday em novembro de 2017.
 
 3. Informação Geográfica (Densidade de Vendas)
 Tipo: Mapa Choropleth (Plotly Express + GeoJSON)
+![Gráfico de Mapa](assets/Mapa.png)
 
 Técnica: Aplicação de Escala Logarítmica para balancear o contraste visual da dominância econômica da região Sudeste.
 
 4. Informação Hierárquica (Distribuição Regional)
 Tipo: Treemap (Plotly Express)
+![Treemap](assets/Treemap.png)
 
 Insight: Organiza proporcionalmente o faturamento dividindo por Estado do Cliente e suas respectivas categorias mais consumidas (Top 5 estados).
 
 5. Visualização de Redes (Fluxo Comercial)
 Tipo: Grafo Direcionado Node-Link (NetworkX + spring_layout)
+![Grafo Direcionado](assets/Grafo_Dirigido.png)
 
 Insight: Mapeia as 20 maiores rotas comerciais entre estados vendedores e compradores, consagrando São Paulo (SP) como o grande hub logístico nacional.
