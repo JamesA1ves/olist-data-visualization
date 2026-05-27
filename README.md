@@ -21,21 +21,33 @@ Como a base de dados consolidada excede os limites de upload padrão, você deve
 
 ### 1. Clonar o Repositório
 
+Execute no terminal:
+
+```bash
+git clone https://github.com/JamesA1ves/olist-data-visualization.git
+
+cd olist-data-visualization
+```
 
 ### 2. Instalar as Dependências
 
 pip install pandas numpy matplotlib plotly networkx
 
 ### 3. Baixar os Dados Brutos
+
 Acesse o dataset original no Kaggle: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 Faça o download e extraia todos os arquivos .csv dentro da pasta raiz deste projeto.
 
 ### 4. Executar o Script de Unificação (Merge)
+
 Execute o script Python merge.py para consolidar todas as tabelas no arquivo final esperado pelos scripts de visualização.
 
-### 5. Executar os scripts
-Execute os scripts main.ipynb na sequência para exibição dos gráficos.
+### 5. Executar
+
+Execute os `notebooks` main.ipynb na sequência para exibição dos gráficos.
+
+### (Obs: o plugin Jupyter deve estar instalado no VS code para execução do script)
 
 ---
 
